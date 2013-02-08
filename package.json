@@ -1,0 +1,18 @@
+{
+    "name": "randbytes"
+  , "version": "0.0.1"
+  , "author": "Oscar Javier Gentilezza Arenas <tioscar@gmail.com> (http://blog.exodica.com.ar/)"
+  , "license": "GPL2"
+  , "description": "Node module for get random bytes as a buffer"
+  , "private": false
+  , "dependencies": {}
+  ,"repository": {
+       "type": "git"
+     , "url": "git@github.com:exos/node-randbytes.git"
+   }
+  ,"keywords": [
+      "random"
+    , "unix random"
+    , "rand"
+  ]
+}
