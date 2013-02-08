@@ -5,11 +5,11 @@ class TimeBasedRandomGenerator
     
     @getInstance: ->
         if not instance
-            instance = new UrandomGenerator()
+            instance = new TimeBasedRandomGenerator()
         
         return instance
 
-    getRandomBlock: (bytes, callback) ->
+    getRandomBytes: (bytes, callback) ->
         
         t = (new Date).getTime()
         random = ''

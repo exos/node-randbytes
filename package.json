@@ -3,16 +3,17 @@
   , "version": "0.0.1"
   , "author": "Oscar Javier Gentilezza Arenas <tioscar@gmail.com> (http://blog.exodica.com.ar/)"
   , "license": "GPL2"
-  , "description": "Node module for get random bytes as a buffer"
+  , "description": "Get a buffer of random bytes from /dev/urandom file, time or another source"
   , "private": false
-  , "dependencies": {}
+  , "dependencies": {
+  }
   ,"repository": {
        "type": "git"
-     , "url": "git@github.com:exos/node-randbytes.git"
+     , "url": "https://github.com/exos/node-randbytes"
    }
   ,"keywords": [
-      "random"
-    , "unix random"
-    , "rand"
+      "rand"
+    , "random"
+    , "urandom"
   ]
 }
