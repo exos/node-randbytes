@@ -12,6 +12,8 @@ $ npm install randbytes
 
 ## Compiling:
 
+RandBytes is written on CoffeeScript, first you need install this with `npm install coffee-script`
+
 ```
 $ git clone https://github.com/exos/node-randbytes.git
 $ cd node-randbytes
@@ -45,13 +47,13 @@ RandBytes.getRandomBytes(512, console.log);
 
 ## Get rand bytes from timestamp
 
-If you are not ussing a Unix like OS, you can generate random bytes from time:
+If you are not using a Unix like OS, you can generate random bytes from time:
 
 ```javascript
 var randomSource = RandBytes.timeRandom.getInstance();
 ```
 
-## Using you own file
+## Using your own file
 
 ```javascript
 
@@ -63,7 +65,7 @@ var randomSource = new RandBytes.urandom({
 
 ## Create a instance of urandom with /dev/random as source
 
-If you need a high random source, you can read from /dev/random, but is very slowly.
+If you need a high randomize source, you can read from /dev/random, but is very slowly.
 
 ```javascript
 var randomSource.getHighRandomSource();
